@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>t</title>
+</head>
+<body>
+<header>
+        
+    <nav>
+        <a href="index.html" title="home" rel="home" >home</a>
+        
+        <a href="fotos.html" title="fotos" rel="fotos" >fotos</a>
+        <a href="jogo para entregar/index.html" title="the last war" target="_blank" style="background-color: red; padding: 10px 10px;" >Jogo</a></nav>
+
+<br></header><br>
+<h1>Formulário 1</h1>
+    <form name="form-cadastro" method="post" action=""><!--get aparece na barra de endereço,serve para google e youtube. post nao aparece. -->
+    <label for="name">Digite seu nome: </label>
+    <input type="text" name="nome" id="nome" size="50" maxlength="40" placeholder=" nome completo   " autocomplete="off" required class="formulario"><br>
+
+    <label for="email">digite seu email</label><br>
+    <input type="email" name="email" id="email" size="50" maxlength="40" placeholder=" digite um email valido  " autocomplete="off" required class="formulario" inputmode="email"><br>
+    <label for="date">data de nascimento</label>
+    <input type="date" name="datanascimento" id="datanascimento" required class="formulario" autocomplete="off"><br>
+    
+    <label for="cor">Cor Preferida:</label>
+    <input type="color" name="cor" id="cor">
+    <br><br>
+    <label for="genero"Selecione seu gênero></label>
+    <input type="radio" name="genero" value="Masculino">Masculino<!--radio voce seleciona um apçao-->
+    <input type="radio" name="genero" value="Feminino">Feminino
+    <input type="radio" name="genero" value="nao informar">não informar
+       
+    <br><br>
+    <label for="mensagem">Digite sua Mensagem</label>
+    <textarea name="mensagem" id="mensagem" required placeholder="digite sua mensagem" class="formulario" rows="5"></textarea><br><br>
+<!--textarea é para msg e rows é para o tanto de linhas-->
+
+<button type="submit" class="btn-submit">enviar dados</button>
+<button type="reset" class="btn-reset">redefinir</button>
+<!-- placeholder é para aparecer o a frase no formulário, id tem que ser o mesmo do for, maxlength é qnt de caracteres, input é o modo que vai salvar.-->
+ <p>
+<img src="w.png" title="youtube" style="width: 20px;height: 20px;" ><a href="https://www.youtube.com/@weslleyleal1198" target="_blank" >inscreva-se no nosso canal no youtube </a> </img>
+ </p>
+ <p>
+<img src="10000484-removebg-preview.png" alt="whatsapp" title="whatsapp" style="width: 20px; height: 20px;" class="wt"><a href="https://wa.me/+5544999237218" target="_blank">whatsapp</a></img>
+ </p>
+
+
+    </form>
+    <br><br>
+    
+
+    
+
+
+</body>
+</html>

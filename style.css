@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(222, 247, 237);
+    margin: 0px;
+}
+header nav {
+    padding: 0px;
+font-size: 30px;
+    float:right;
+    margin-top: 40px;
+}
+header, footer {
+    width: 100%; /*largura*/.;
+    background-color: white;
+    box-shadow: 0px 00px 5px #ccc;
+    padding: 10px;/*margem dentro do objeto*/
+    box-sizing: border-box;/*tamanho do box*/
+}
+header nav a {
+    text-decoration:none;/*tirar o sublinhado do link*/
+    color: #ccc;
+    margin: 40px;/*distância entre um e outro*/
+    padding-top: 0;
+    
+}
+header nav a:hover {
+    color: #ffcb00;
+    transition: 0.5s;
+}
+section {
+    padding: 10px 2px;
+box-sizing: border-box;
+color: rgb(250, 145, 7);
+width: 95%;
+margin: auto;
+
+
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcb00;
+    color: #070000;
+}
+.h1 {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin:0;
+    padding: 20px;
+    background-color: #ffcb00;
+}
+.galeria {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+aside {
+    margin: auto;
+    padding: 50px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.grid .coluna img {
+    width: 100%;
+}
+.grid .coluna {
+    text-align: center;
+    border: 1x solid #ccc ;
+    border-radius: 5px;
+    margin: 10px;
+} 
+.btn {
+    background: #ffcb00;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 0,5s;
+
+}
+.btn:hover {
+    background: #fff;
+    color: #333;
+
+}
+label{
+    font-weight: bold; 
+
+
+}
+.formulario {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    
+}
+label, .formulario {
+    margin: 10px 0;
+}
+.btn-submit, .btn-reset {
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    color:black;
+    background-color: #ccc;
+    
+}
+.btn-submit:hover {
+    background-color: green;
+    color:white;
+}
+.btn-reset:hover {
+    background-color:red;
+    color:white;
+}
+
+.formulario:focus {
+    background-color: rgb(247, 247, 185);
+}
+.yu .wt {
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    color:black;
+    background-color: #ccc;
+}
+
+
+
+    
+
